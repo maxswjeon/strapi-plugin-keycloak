@@ -1,3 +1,28 @@
 node_modules
 docs
 .idea
+
+
+############################
+# Strapi
+############################
+
+.env
+license.txt
+exports
+*.cache
+dist
+build
+.strapi-updater.json
+
+############################
+# Yarn Berry
+############################
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
