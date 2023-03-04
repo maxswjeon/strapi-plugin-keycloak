@@ -10,13 +10,13 @@ You will be able to log in to the administration screen using your Keycloak.
 # Easy to install
 
 ```shell
-yarn add @codingbear/strapi-plugin-keycloak
+yarn add @codingbear03/strapi-plugin-keycloak
 ```
 
 or
 
 ```shell
-npm i @codingbear/strapi-plugin-keycloak
+npm i @codingbear03/strapi-plugin-keycloak
 ```
 
 # Requirements

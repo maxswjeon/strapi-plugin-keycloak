@@ -1,5 +1,5 @@
 {
-  "name": "@codingbear/strapi-plugin-keycloak",
+  "name": "@codingbear03/strapi-plugin-keycloak",
   "version": "1.0.0",
   "description": "Plug-in for single sign-on with Strapi!",
   "strapi": {
