@@ -1,11 +1,9 @@
-'use strict';
+"use strict";
 
-const google = require('./google')
-const cognito = require('./cognito')
-const role = require('./role')
+const keycloak = require("./keycloak");
+const role = require("./role");
 
 module.exports = {
-  google,
-  cognito,
-  role
+  keycloak,
+  role,
 };

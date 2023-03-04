@@ -1,11 +1,11 @@
 {
-  "name": "strapi-plugin-sso",
-  "version": "0.1.6",
+  "name": "@codingbear/strapi-plugin-keycloak",
+  "version": "1.0.0",
   "description": "Plug-in for single sign-on with Strapi!",
   "strapi": {
-    "displayName": "Single Sign On",
-    "name": "strapi-plugin-sso",
-    "description": "Version 4 enables single sign-on",
+    "displayName": "Keycloak SSO",
+    "name": "strapi-plugin-keycloak",
+    "description": "Login with Keycloak",
     "kind": "plugin"
   },
   "scripts": {
@@ -17,29 +17,33 @@
     "plugin",
     "oauth",
     "SSO",
-    "Google",
-    "Cognito"
+    "Keycloak"
   ],
   "peerDependencies": {
     "@strapi/strapi": "^4.6.0"
   },
   "dependencies": {
-    "generate-password": "^1.7.0"
+    "axios": "^1.3.4",
+    "generate-password": "^1.7.0",
+    "node-cache": "^5.1.2",
+    "openid-client": "^5.4.0"
   },
   "author": {
-    "name": "yasudacloud",
-    "url": "https://github.com/yasudacloud/strapi-plugin-sso"
+    "name": "Sangwan Jeon",
+    "email": "maxswjeon@codingbear.kr",
+    "url": "https://github.com/codingbear/strapi-plugin-keycloak"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yasudacloud/strapi-plugin-sso"
+    "url": "https://github.com/codingbear/strapi-plugin-keycloak"
   },
   "bugs": {
-    "url": "https://github.com/yasudacloud/strapi-plugin-sso/issues"
+    "url": "https://github.com/codingbear/strapi-plugin-keycloak/issues"
   },
   "maintainers": [
     {
-      "name": "yasudacloud"
+      "name": "Sangwan Jeon",
+      "email": "maxswjeon@codingbear.kr"
     }
   ],
   "engines": {
@@ -59,5 +63,11 @@
       ".cache"
     ],
     "testEnvironment": "node"
-  }
+  },
+  "homepage": "https://github.com/codingbear/strapi-plugin-keycloak#readme",
+  "main": "strapi-admin.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "packageManager": "yarn@3.4.1"
 }
