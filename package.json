@@ -1,6 +1,6 @@
 {
   "name": "@codingbear03/strapi-plugin-keycloak",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plug-in for single sign-on with Strapi!",
   "strapi": {
     "displayName": "Keycloak SSO",

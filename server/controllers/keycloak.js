@@ -103,7 +103,7 @@ async function signInCallback(ctx) {
       throw new Error("User not found.");
     }
 
-    const dbUser = await userService.findOneByEmail(userResponse.data.Email);
+    const dbUser = await userService.findOneByEmail(userResponse.data.email);
     let activateUser;
     let jwtToken;
 
