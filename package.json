@@ -31,14 +31,14 @@
   "author": {
     "name": "Sangwan Jeon",
     "email": "maxswjeon@codingbear.kr",
-    "url": "https://github.com/codingbear/strapi-plugin-keycloak"
+    "url": "https://github.com/maxswjeon/strapi-plugin-keycloak"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codingbear/strapi-plugin-keycloak"
+    "url": "https://github.com/maxswjeon/strapi-plugin-keycloak"
   },
   "bugs": {
-    "url": "https://github.com/codingbear/strapi-plugin-keycloak/issues"
+    "url": "https://github.com/maxswjeon/strapi-plugin-keycloak/issues"
   },
   "maintainers": [
     {
@@ -64,7 +64,7 @@
     ],
     "testEnvironment": "node"
   },
-  "homepage": "https://github.com/codingbear/strapi-plugin-keycloak#readme",
+  "homepage": "https://github.com/maxswjeon/strapi-plugin-keycloak#readme",
   "main": "strapi-admin.js",
   "directories": {
     "doc": "docs"
